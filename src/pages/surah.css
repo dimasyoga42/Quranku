@@ -37,6 +37,14 @@ body {
 .nav-link:hover {
    color: #000;
 }
+.surah-container {
+   height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+}
 @media (max-width: 760px) {
  .card h2{
     font-size: 20px;
