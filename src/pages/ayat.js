@@ -1,6 +1,8 @@
 async function createButtons() {
   const buttonContainer = document.querySelector('.button-container');
+  const spinnerContainer = document.querySelector('.spinner-container');
   try {
+     document.querySelector('.spinner-border').style.display = "flex";
     const response = await fetch('https://quran-api.santrikoding.com/api/surah');
     const data = await response.json();
     console.log(data);
@@ -48,7 +50,10 @@ async function createButtons() {
 
   } catch (error) {
     console.error('Error fetching surah data:', error);
-  }
+  }finally {
+                // Hide the spinner
+                document.querySelector('.spinner-border').style.display = "none";
+            }
 }
 
 createButtons();

@@ -27,7 +27,13 @@ body {
   font-weight: 100;
 }
 .button-container {
+   height: 100vh;
    margin: 10% auto;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   flex-wrap: wrap;
 }
 .card {
  border: 1px solid black;
@@ -37,6 +43,20 @@ body {
    width: 270px;
    height: 270px;
 }
+.spinner-container {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            margin: 50% auto;
+        }
+        
+        .inv {
+           display: flex;
+        }
+        .non {
+           display: none;
+        }
 @media (max-width: 760px) {
    .button-container {
    margin: 15% auto;
