@@ -28,7 +28,7 @@ body {
 }
 .button-container {
    height: 100vh;
-   margin: 10% auto;
+   margin: 20% auto;
    display: flex;
    justify-content: center;
    justify-items: center;
@@ -42,6 +42,9 @@ body {
 .img img {
    width: 270px;
    height: 270px;
+}
+.input-group  {
+   margin-top: 10%;
 }
 .spinner-container {
             display: none;
@@ -68,4 +71,5 @@ body {
    width: 200px;
    height: 200px;
 }
+
 }
