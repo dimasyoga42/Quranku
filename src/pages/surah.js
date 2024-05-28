@@ -1,3 +1,4 @@
+
 function getSurahNumberFromURL() {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get('number');
