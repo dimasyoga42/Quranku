@@ -1,8 +1,8 @@
 new TypeIt("#title", {
-  strings: "Qur'an Ku",
-  speed: 85,
-  loop: true,
-  waitUntilVisible: true,
+   strings: "Qur'an Ku",
+   speed: 85,
+   loop: true,
+   waitUntilVisible: true,
 }).go();
 
 function updateClock() {
@@ -14,7 +14,7 @@ function updateClock() {
    const timeString = `${hours}:${minutes}:${seconds}`;
 
    document.getElementById('clock').textContent = timeString;
- }
+}
 
- setInterval(updateClock, 1000);
- updateClock();  // Initialize clock immediately
+setInterval(updateClock, 1000);
+updateClock(); // Initialize clock immediately
