@@ -19,7 +19,7 @@ async function createButtons() {
                     <div class="card-body">
                         <h5 class="card-title">${surah.nama_latin}</h5>
                         <p class="card-text">${surah.nama_latin} yang berarti ${surah.arti} surah ini di turunkan di ${surah.tempat_turun} dan memiliki jumlah ayat ${surah.jumlah_ayat} ayat</p>
-                        <a href="#" class="btn" data-number="${surah.nomor}">Read</a>
+                        <a href="#" class="btn" data-number="${surah.nomor}">membaca</a>
                     </div>
                 </div>
             `;
